@@ -1,0 +1,16 @@
+title: Jangama Collective
+description: A theatre collective based in Bangalore
+url: https://jangama-collective.github.io
+
+markdown: kramdown
+permalink: /:categories/:title/
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
